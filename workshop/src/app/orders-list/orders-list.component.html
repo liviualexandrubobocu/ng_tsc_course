@@ -1,0 +1,12 @@
+<h1>Orders</h1>
+
+<ul>
+    <li *ngFor="let order of orders; index as i">
+        <p>{{ order.id }}</p>
+        <p>{{ order.provider }}</p>
+        <p>{{ order.qty }}</p>
+        <p>{{ order.price }}</p>
+        <p>{{ order.VAT }}</p>
+        <p>{{ order.totalPrice }}</p>
+    </li>
+</ul>
