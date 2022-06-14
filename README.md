@@ -1,1 +1,1 @@
-# tsc_course
+# Angular and typescript course
